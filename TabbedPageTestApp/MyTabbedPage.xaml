@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="TabbedPageTestApp.MyTabbedPage">
+
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="ContentPage 1" />
+    <ContentPage Title="ContentPage 2" />
+
+    <ContentPage Title="ContentPage 3">
+        <Label Text="3" TextColor="Yellow" />
+    </ContentPage>
+
+    <ContentPage Title="ContentPage 4">
+        <Label Text="4" TextColor="Yellow" />
+    </ContentPage>
+
+</TabbedPage>
