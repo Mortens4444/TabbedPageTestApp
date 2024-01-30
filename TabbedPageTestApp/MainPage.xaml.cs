@@ -9,7 +9,7 @@ public partial class MainPage : ContentPage
 
     private async void OnOpenTabbedPageClicked(object sender, EventArgs e)
     {
-        var page = Activator.CreateInstance(typeof(MyTabbedPage)) as Page;
+        var page = new MyTabbedPage();
         await Navigation.PushAsync(page);
     }
 }
